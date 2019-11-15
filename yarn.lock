@@ -5232,8 +5232,9 @@ gatsby-page-utils@^0.0.30:
     micromatch "^3.1.10"
     slash "^3.0.0"
 
-"gatsby-plugin-gdpr-cookies@file:../gatsby-plugin-gdpr-cookies":
+"gatsby-plugin-gdpr-cookies@https://github.com/SimonVanherweghe/gatsby-plugin-gdpr-cookies.git":
   version "1.0.3"
+  resolved "https://github.com/SimonVanherweghe/gatsby-plugin-gdpr-cookies.git#ea3de0be0c8179de1ec1668b5237902f8b593f76"
   dependencies:
     "@babel/runtime" "^7.7.2"
     react-ga "^2.7.0"
