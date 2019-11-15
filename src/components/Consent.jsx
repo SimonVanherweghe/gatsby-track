@@ -20,10 +20,10 @@ const Consent = () => {
     const value = e.currentTarget.checked
     const type = e.currentTarget.name
     switch (type) {
-      case "ga":
+      case "chkga":
         setGaConsent(value)
         break
-      case "fb":
+      case "chkfb":
         setFbConsent(value)
         break
       default:
@@ -47,22 +47,22 @@ const Consent = () => {
       <span role="img" aria-label="Cookie" className={style.cookie}>
         🍪
       </span>
-      <label htmlFor="ga">
+      <label htmlFor="chkga">
         <span className={style.label}>Google Analytics</span>
         <input
           type="checkbox"
-          name="ga"
-          id="ga"
+          name="chkga"
+          id="chkga"
           checked={gaConsent}
           onChange={handleChange}
         />
       </label>
-      <label htmlFor="fb">
+      <label htmlFor="chkfb">
         <span className={style.label}>Facebook</span>
         <input
           type="checkbox"
-          name="fb"
-          id="fb"
+          name="chkfb"
+          id="chkfb"
           checked={fbConsent}
           onChange={handleChange}
         />
