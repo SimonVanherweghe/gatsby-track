@@ -1,0 +1,44 @@
+.container {
+  position: sticky;
+
+  display: grid;
+  grid-gap: 1em;
+  justify-items: right;
+  align-items: center;
+
+  bottom: -0.1rem;
+  margin-left: auto;
+
+  background-color: rebeccapurple;
+
+  padding: 1em;
+  width: 15rem;
+  border-top-left-radius: 100%;
+}
+
+.cookie {
+  font-size: 5em;
+  line-height: 1;
+}
+
+.label {
+  color: white;
+  font-family: sans-serif;
+}
+
+.button {
+  border: none;
+  margin: 0;
+}
+
+.buttonYes {
+  composes: button;
+  color: white;
+  background-color: green;
+}
+
+.buttonNo {
+  composes: button;
+  color: black;
+  background-color: white;
+}
